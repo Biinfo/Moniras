@@ -1,0 +1,27 @@
+.main-menu{
+    background-color:aqua;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo a{
+    color: rgb(252, 7, 150);
+    text-decoration: none;
+    font-weight: 1000;
+}
+.menu nav ul li{
+    padding-top: 10px;
+    list-style: none;
+    
+}
+.menu nav ul li a{
+    text-decoration:  none;
+    background-color: white;
+    display: block;
+    padding: 8px;
+    color: black;
+    font-weight: bold;
+}
+.menu nav ul li a:hover{
+    color: red;
+}
