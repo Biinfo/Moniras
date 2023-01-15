@@ -1,27 +1,155 @@
-.main-menu{
-    background-color:aqua;
+.main-menu {
+    background-color: aqua;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.logo a{
+
+.logo a {
     color: rgb(252, 7, 150);
     text-decoration: none;
     font-weight: 1000;
 }
-.menu nav ul li{
+
+.menu nav ul li {
     padding-top: 10px;
     list-style: none;
-    
+
 }
-.menu nav ul li a{
-    text-decoration:  none;
+
+.menu nav ul li a {
+    text-decoration: none;
     background-color: white;
     display: block;
     padding: 8px;
     color: black;
     font-weight: bold;
 }
-.menu nav ul li a:hover{
+
+.menu nav ul li a:hover {
     color: red;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-text {
+    color: #ffffff;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.text2 {
+    padding-top: 10px;
+
+}
+
+.mid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.mid-item nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.mid-item nav ul li a {
+    text-decoration: none;
+    background-color: aqua;
+    display: block;
+    padding: 8px;
+
+}
+
+.mid-item nav ul li a:hover {
+    color: red;
+}
+
+.log {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.log nav ul li {
+    list-style: none;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.action {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.action1 {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+.next ul li {
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+.next ul li a {
+    text-decoration: none;
+}
+.car{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.one {
+    padding: 30px;
+   box-shadow: rgb(222, 27, 222);
+   border: 2px solid;
+   height: auto;
+   padding-top: 10px;
+}
+.one img{
+    width: 100%;
+    margin: auto;
+}
+.one h4{
+    padding-top: 10px;
+}
+.one1{
+    padding-top: 10px;
+}
+.im{
+   
+    float: left;
+    width: 50px;
+}
+.im-text{
+    float: left;
+    padding-left: 20px;
+   
+}
+.one2{
+    clear: both;
+    padding-top: 10px;
+}
+.price1{
+    float: left;
+   
+}
+.price2{
+    float: left;
+    padding-left: 10px;
+}
+.prace-bid{
+    float: right;
+    
+}
+.prace-bid button{
+    border: none;
+    background: rgb(7, 71, 248);
+    color: white;
+    padding: 5px;
 }

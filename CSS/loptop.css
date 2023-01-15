@@ -1,34 +1,170 @@
-.main-menu{
-    
+.main-menu {
+
     overflow: hidden;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.logo{
+
+.logo {
     float: left;
 }
-.logo a{
+
+.logo a {
     color: rgb(15, 13, 13);
     font-weight: bolder;
     text-transform: uppercase;
     text-decoration: none;
 }
-.logo a:hover{
-   color: red;
+
+.logo a:hover {
+    color: red;
 }
-.menu{
+
+.menu {
     float: right;
-    
+
 }
-.menu nav ul li{
+
+.menu nav ul li {
     display: inline-flex;
     padding-left: 20px;
 }
-.menu nav ul li a{
+
+.menu nav ul li a {
     text-decoration: none;
     color: rgb(26, 24, 24);
 }
-.menu nav ul li a:hover{
-    color:red;
+
+.menu nav ul li a:hover {
+    color: red;
+
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-text {
+    color: #ffffff;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.text2 {
+    padding-top: 10px;
+}
+
+.mid-item {
+    background-color: white;
+    height: 70px;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    box-shadow: 10px;
+}
+
+.mid-item nav ul {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.mid-item nav ul li {
+    display: inline-flex;
+    text-align: center;
+    padding-left: 40px;
+    margin-left: 2px solid;
+}
+
+.mid-item nav ul li a {
+    text-decoration: none;
+}
+
+.log {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.log nav ul {
+    text-align: left;
+}
+
+.log nav ul li {
+    list-style: none;
+    padding-left: 100px;
+    display: inline-flex;
+}
+
+.action1 {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+.next ul li {
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+.next ul li a {
+    text-decoration: none;
+}
+
+.action {
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+car{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.one {
+padding: 30px;
+   box-shadow: rgb(222, 27, 222);
+   border: 2px solid;
+   height: auto;
+}
+.one img{
+    width: 100%;
+    margin: auto;
+}
+.one h4{
+    padding-top: 10px;
+}
+.one1{
+    padding-top: 10px;
+}
+.im{
    
+    float: left;
+    width: 50px;
+}
+.im-text{
+    float: left;
+    padding-left: 20px;
+   
+}
+.one2{
+    clear: both;
+    padding-top: 10px;
+}
+.price1{
+    float: left;
+   
+}
+.price2{
+    float: left;
+    padding-left: 10px;
+}
+.prace-bid{
+    float: right;
+    
+}
+.prace-bid button{
+    border: none;
+    background: rgb(7, 71, 248);
+    color: white;
+    padding: 5px;
 }
